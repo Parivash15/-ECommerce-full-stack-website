@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiShoppingCart } from "react-icons/fi";
+import female from "../female/[slug]/page";
 
 export default function Navbar() {
   return (
@@ -16,7 +17,7 @@ export default function Navbar() {
             <Link href={"/"}> Male </Link>
           </li>
           <li className="text-lg">
-            <Link href={"/"}> Female</Link>
+            <Link href={"./female"}> Female</Link>
           </li>
           <li className="text-lg">
             <Link href={"/"}>Kids</Link>

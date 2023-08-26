@@ -17,7 +17,7 @@ function Productcomponents(props: any) {
             });
           }}
         >
-          Buy Now
+        <div className="bg-amber-800/50 text-gray-100 font-semibold rounded-lg py-2 px-3">Buy Now</div>
         </button>
       </div>
     </div>

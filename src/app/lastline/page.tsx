@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Lastline() {
   return (
-    <div className=" flex justify-evenly mt-48">
+    <div className=" flex justify-evenly mt-40 mb-9 bg-amber-200/30">
       <p>Copyright 2022 Dine market</p>
 
       <p>

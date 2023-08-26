@@ -7,15 +7,15 @@ import { FiTwitter } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <main className="flex justify-evenly mt-10">
+    <main className="flex justify-evenly mt-36">
       {/* Left side */}
       <div>
         <Image src="/logo.webp" alt="logo" width={200} height={200} />
 
         <p className=" mt-4">
           Small, artisan label that offers a thoughtfully
-          <br />
-          curated collection of high quality everyday <br />
+          <br/>
+          curated collection of high quality everyday <br/>
           essentials made.
         </p>
         <div className="flex mt-6 gap-6">
